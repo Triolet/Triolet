@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Jeu du triolet",
   "main": "app.js",
- 
+
   "engine": {
     "node": "*",
     "npm": "*"
@@ -15,6 +15,10 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/Triolet/JeuTriolet.git"
+  },  "dependencies": {
+
+     "express": "^4.13.0",
+
   },
   "author": "Groupe Triolet",
   "license": "ISC",
@@ -22,5 +26,5 @@
     "url": "https://github.com/Triolet/JeuTriolet/issues"
   },
   "homepage": "https://github.com/Triolet/JeuTriolet#readme"
+
 }
- 
