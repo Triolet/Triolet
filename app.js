@@ -7,13 +7,13 @@ var ent = require('ent');
 var fs = require('fs');
 
 var server_port = process.env.OPENSHIFT_NODEJS_PORT || 8080;
-var server_ip_address = "10.1.63.8" ;
+var server_ip_address = process.env.OPENSHIFT_NODEJS_IP ;
 
-if (typeof server_ip_address === "undefined") {
+if (typeof  === "undefined") {
   //  Log errors on OpenShift but continue w/ 127.0.0.1 - this
   //  allows us to run/test the app locally.
   console.warn('No OPENSHIFT_NODEJS_IP var, using 127.0.0.1');
-  server_ip_address = "127.0.0.1";
+  self.ipaddress = "127.0.0.1";
 }
 
 
