@@ -7,7 +7,7 @@ var ent = require('ent');
 var fs = require('fs');
 
 var server_port = process.env.OPENSHIFT_NODEJS_PORT || 8080;
-var server_ip_address = process.env.OPENSHIFT_NODEJS_IP ;
+var server_ip_address = "10.1.63.8" ;
 
 if (typeof server_ip_address === "undefined") {
   //  Log errors on OpenShift but continue w/ 127.0.0.1 - this
