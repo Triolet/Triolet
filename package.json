@@ -1,30 +1,35 @@
 {
   "name": "triolet",
-  "version": "1.0.0",
-  "description": "Jeu du triolet",
+  "version": "0.0.1",
+  "description": "Jeu du Triolet en ligne",
   "main": "app.js",
-
-  "engine": {
-    "node": "*",
-    "npm": "*"
+  "dependencies": {
+    "ent": "^2.2.0",
+    "express": "^4.14.0",
+    "path": "^0.12.7",
+    "socket.io": "^1.5.0"
   },
+  "devDependencies": {},
   "scripts": {
-    "start": "node app.js",
-     "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/Triolet/JeuTriolet.git"
-  },  "dependencies": {
-
-     "express": "^4.14.0",
-
+    "url": "git+https://github.com/Triolet/Triolet.git"
   },
-  "author": "Groupe Triolet",
-  "license": "ISC",
+  "keywords": [
+    "Triolet",
+    "Jeu",
+    "IUT"
+  ],
+  "scripts": {
+    "start": "node app.js",
+     "test": "echo \"Error: no test specified\" && exit 1"
+},
+  "author": "Projet Triolet",
+  "license": "UNLICENSED",
   "bugs": {
-    "url": "https://github.com/Triolet/JeuTriolet/issues"
+    "url": "https://github.com/Triolet/Triolet/issues"
   },
-  "homepage": "https://github.com/Triolet/JeuTriolet#readme"
-
+  "homepage": "https://github.com/Triolet/Triolet#readme"
 }
