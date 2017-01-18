@@ -17,7 +17,7 @@
     "url": "https://github.com/Triolet/JeuTriolet.git"
   },  "dependencies": {
 
-     "express": "^4.13.0",
+     "express": "^4.14.0",
 
   },
   "author": "Groupe Triolet",
